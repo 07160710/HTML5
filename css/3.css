@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+#wrap{
+	width:900px;
+	height:auto;
+	margin:auto;
+	background-color:#FFFFFF;
+}
+.center_content{
+	width:900px;
+	padding:0px 0 0 0;
+	background:url(../images/true.jpg) repeat-y center;
+}
+header{
+	width:900px;
+	height:181px;
+	background:url(../images/21.png) no-repeat center;
+}
+menu{
+	width:628px;
+	height:41px;
+	margin:55px 0 0 26px;
+	background:url(../images/12.jpg) no-repeat center;
+}
+menu ul{
+	display:block;
+	list-style:none;
+	padding:9px 0 0 10px;
+	margin:0px;
+}
+menu ul li{
+	display:inline;
+	padding:0px;
+	margin:0px;
+	height:27px;
+}
+menu ul li a{
+	display:block;
+	padding:0px 10px 0 10px;
+	margin:0 4px 0 4px;
+	_margin:0 2px 0 2px;
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	font-size:13px;
+	line-height:27px;
+}
+menu ul li a:hover{
+	background:url(images/bullet2.gif) repeat-x center;
+	color:yellow;
+}
+footer{
+	height:100px;
+	border:1px #b2b2b2 dashed;
+	background:url(../images/4.png) no-repeat bottom;
+}
+.left_footer{
+	float:left;
+	padding:10px 0 0 10px;
+}
+.right_footer{
+	float:right;
+	padding:10px 10px 0 0;
+}
+.footer a{
+	text-decoration:none;
+	padding:0 5px 0 5px;
+	color:#afaeaf;
+}
